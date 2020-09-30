@@ -1,0 +1,83 @@
+2020-09-29 11:42:59,720 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:106] - ERROR: ('css selector', '.icon-chat-faces') not found !
+2020-09-29 15:16:53,625 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:106] - ERROR: ('css selector', '.icon-chat-faces') element is not found !
+2020-09-29 15:16:53,650 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:16:53,673 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:16:53,695 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:16:53,717 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:16:58,747 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:106] - ERROR: ('css selector', 'button[class="cc-btn cc-btn-primary cc-btn-size-default"]') element is not found !
+2020-09-29 15:18:46,470 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:18:46,609 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:18:46,647 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:18:46,680 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:18:46,700 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:18:51,724 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:106] - ERROR: ('css selector', 'button[class="cc-btn cc-btn-primary cc-btn-size-default"]') element is not found !
+2020-09-29 15:21:18,429 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:21:18,452 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:21:18,475 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:21:18,642 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:21:18,674 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:21:23,680 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:106] - ERROR: ('css selector', 'button[class="cc-btn cc-btn-primary cc-btn-size-default"]') element is not found !
+2020-09-29 15:27:50,576 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:27:50,605 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:27:50,710 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:27:50,765 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:27:50,800 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:27:55,820 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:106] - ERROR: ('link text', '发送') element is not found !
+2020-09-29 15:29:26,592 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:29:26,692 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:29:26,728 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:29:26,759 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:29:26,794 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - INFO: 元素存在
+2020-09-29 15:29:31,820 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:106] - ERROR: ('css selector', 'button[class="cc-btn cc-btn-primary cc-btn-size-default"]') element is not found !
+2020-09-29 15:39:04,582 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:110] - INFO: 元素存在
+2020-09-29 15:39:04,614 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:110] - INFO: 元素存在
+2020-09-29 15:39:04,636 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:110] - INFO: 元素存在
+2020-09-29 15:39:04,658 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:110] - INFO: 元素存在
+2020-09-29 15:39:04,682 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:110] - INFO: 元素存在
+2020-09-29 15:39:09,735 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:107] - ERROR: ('css selector', 'button[class="cc-btn cc-btn-primary cc-btn-size-default"]') element is not found !
+2020-09-29 16:02:43,382 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:112] - INFO: 元素存在
+2020-09-29 16:02:43,402 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:112] - INFO: 元素存在
+2020-09-29 16:02:43,426 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:112] - INFO: 元素存在
+2020-09-29 16:02:43,574 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:112] - INFO: 元素存在
+2020-09-29 16:02:43,594 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:112] - INFO: 元素存在
+2020-09-29 16:02:48,650 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:109] - ERROR: ('css selector', 'button[class="cc-btn cc-btn-primary cc-btn-size-default"]') element is not found !
+2020-09-29 17:06:43,746 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:118] - INFO: 元素存在
+2020-09-29 17:06:43,841 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:118] - INFO: 元素存在
+2020-09-29 17:06:43,862 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:118] - INFO: 元素存在
+2020-09-29 17:06:43,886 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:118] - INFO: 元素存在
+2020-09-29 17:06:43,907 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:118] - INFO: 元素存在
+2020-09-29 17:06:48,921 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:115] - ERROR: ('css selector', 'button[class="cc-btn cc-btn-primary cc-btn-size-default"]') element is not found !
+2020-09-29 18:33:01,684 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:33:01,754 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:33:01,780 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:33:01,852 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:33:01,882 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:33:06,915 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', 'button[class="cc-btn cc-btn-primary cc-btn-size-default"]') element is not found !
+2020-09-29 18:34:31,649 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:34:31,698 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:34:31,814 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:34:31,845 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:34:31,867 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:34:36,878 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', 'button[class="cc-btn cc-btn-primary cc-btn-size-default"]') element is not found !
+2020-09-29 18:35:30,628 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:35:30,679 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:35:30,707 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:35:30,756 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:35:30,781 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:41:04,803 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:41:04,847 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:41:04,883 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:41:04,934 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:41:04,958 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:41:10,019 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:117] - ERROR: ('link text', '发送 ') element is not found !
+2020-09-29 18:51:45,369 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:51:45,454 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:51:45,535 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:51:45,555 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:51:45,581 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在
+2020-09-29 18:55:39,061 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在!
+2020-09-29 18:55:39,095 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在!
+2020-09-29 18:55:39,140 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在!
+2020-09-29 18:55:39,214 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在!
+2020-09-29 18:55:39,238 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在!
+2020-09-29 18:55:44,277 - D:\PythonPro\CloudChat\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[aria-describedby="cc-popover-2854"]') element is not found !
