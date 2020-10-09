@@ -15,7 +15,7 @@ class Main(BasePage):
 
     def fwh_click(self, timeout):
         """点击打开服务号Page"""
-        ele_fwh = (By.CSS_SELECTOR, ".chat-title")
+        ele_fwh = (By.CSS_SELECTOR, ".chaxt-title")
         WebDriverWait(self._driver, 10).until(ec.element_to_be_clickable(ele_fwh))
         ele_list = self._driver.find_elements(*ele_fwh)
         if len(ele_list) > 0:
