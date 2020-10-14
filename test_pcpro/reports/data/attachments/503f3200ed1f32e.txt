@@ -1,0 +1,6 @@
+['CDwindow-C6E23284FAD828F4B2647DC6B8BFBF55', 'CDwindow-B48150FDE5B67D0602FA274807828120']
+2020-10-10 09:33:51,764 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在!
+2020-10-10 09:33:51,804 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在!
+2020-10-10 09:33:51,831 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在!
+2020-10-10 09:33:51,852 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在!
+2020-10-10 09:33:51,874 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:120] - INFO: 元素存在!

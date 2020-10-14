@@ -5,10 +5,8 @@ from time import sleep
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support import expected_conditions as ec
-from selenium.webdriver.support.wait import WebDriverWait
 
-from page.base_page import BasePage
+from test_pcpro.page.base_page import BasePage
 
 
 class FWH(BasePage):
@@ -30,6 +28,7 @@ class FWH(BasePage):
 
     def click_fwh(self, index=0):
         """打开第一个服务号"""
+        print(self.assert_fwh())
         if len(self.assert_fwh()) > 0:
             self.assert_fwh()[index].click()
         else:

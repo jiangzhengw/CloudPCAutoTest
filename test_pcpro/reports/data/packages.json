@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_pcpro.test_case.test_chat",
+    "children" : [ {
+      "name" : "test_chat_fwh",
+      "uid" : "5d7460234692ec65",
+      "parentUid" : "91dd7bd15c7488f168269f7973c2aea4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602293612195,
+        "stop" : 1602293635923,
+        "duration" : 23728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test_pcpro.test_case.test_chat"
+  } ]
+}

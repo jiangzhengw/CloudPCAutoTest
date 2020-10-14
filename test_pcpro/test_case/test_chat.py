@@ -2,7 +2,6 @@
 # Author: jiangzhw
 # FileName: test_chat.py
 import pytest
-
 from test_pcpro.page.main import Main
 
 
