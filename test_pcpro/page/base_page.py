@@ -3,6 +3,8 @@
 # FileName: base_page.py
 import sys
 import logging
+
+import win32api
 import win32gui
 import win32con
 from time import sleep
@@ -65,7 +67,7 @@ class BasePage:
 
     def close_page(self):
         """关闭页面"""
-        sleep(8)
+        sleep(20)
         self._driver.quit()
 
     def login_in(self, username=None, pwd=None, group=None):
@@ -120,12 +122,21 @@ class BasePage:
             self._logger.info("元素存在!")
             return True
 
+    def wait(self, timeout, method):
+        """"wait method """
+        # WebDriverWait默认等待时间 poll_frequency = 0.5
+        WebDriverWait(self._driver, timeout).until(method)
+
     def set_window_size(self, width, height):
         """设置窗口大小"""
-        handler = self.get_handlers()
-        print(handler)
-        win32gui.SetWindowPos(handler, None, 0, 0, width, height, win32con.SWP_NOSENDCHANGING | win32con.SWP_SHOWWINDOW)
+        handle = self.get_handles()
+        print(handle)
+        win32gui.SetWindowPos(handle, None, 0, 0, width, height, win32con.SWP_NOSENDCHANGING | win32con.SWP_SHOWWINDOW)
 
-    def get_handlers(self):
-        hdl = win32gui.GetForegroundWindow()
-        return hdl
+    def get_handles(self):
+        """win32gui 获取窗口句柄"""
+        return win32gui.GetForegroundWindow()
+
+    def get_mouse_pos(self):
+        """win32api 获取鼠标位置"""
+        return win32api.GetCursorPos()
