@@ -6,6 +6,7 @@ import win32api
 import win32con
 from selenium.webdriver.common.by import By
 from selenium.webdriver import ActionChains
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as ec
 
 from test_pcpro.page.base_page import BasePage
@@ -46,7 +47,7 @@ class FWH(BasePage):
         if ll > 0:
             for i in range(ll):
                 if self._driver.find_elements(By.CSS_SELECTOR, ".chat-service-title")[i].text == fwh_name:
-                    self.assert_fwh()[i].click()
+                    self._driver.find_elements(By.CSS_SELECTOR, ".chat-service-title")[i].click()
         else:
             raise Exception("{} is not found!".format("服务号"))
 
@@ -95,6 +96,7 @@ class FWH(BasePage):
         self._driver.find_element(By.CSS_SELECTOR, '.icon-chat-appendix').click()
         # self._driver.save_screenshot("")
         sleep(3)
+        # pc模拟键盘esc按键
         win32api.keybd_event(27, 0, 0, 0)
 
     def we_email(self):
@@ -104,15 +106,32 @@ class FWH(BasePage):
         self._driver.find_element(*email).click()
         return EMAIL(self._driver)
 
+    def file_list(self):
+        """附件类表"""
+        file_list_button = (By.CSS_SELECTOR, 'button[title="附件列表"]')
+        self.wait(10, ec.element_to_be_clickable(file_list_button))
+        self._driver.find_element(*file_list_button).click()
+        file_list = (By.CSS_SELECTOR, '.chat-file-list')
+        self.wait(10, ec.visibility_of_element_located(file_list))
+        file_total = (By.CSS_SELECTOR, '.chat-file-list-title-manage')
+        assert "共有" in self._driver.find_element(*file_total).text
+
     def fwh_operation(self):
         """服务号内操作"""
-        """
         ele_emo = (By.CSS_SELECTOR, '.icon-chat-face')
         self.fwh_emo_operate(ele_emo, 6)
         self._driver.find_element(By.CSS_SELECTOR, '.chat-input-wrapper').send_keys(Keys.ENTER)
         self.pri_scr()
         self.upload_files()
+        self.file_list()
         """
+        # 打开微邮页面
         email_page = self.we_email()
         self.switch_to_window(2)
         email_page.email_assert()
+        email_page.modify_topic("测试微邮主题")
+        email_page.add_attachment()
+        email_page.modify_content_style(Size=14)
+        email_page.insert_content(
+            "微邮测试：111111111122222222222 撒打算打算大所大所 阿斯达四大所大所大所大所，请无视。")
+        """

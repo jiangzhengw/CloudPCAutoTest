@@ -63,11 +63,11 @@ class BasePage:
 
     def mouse_hover(self, ele):
         """鼠标悬停"""
-        ActionChains(self._driver).move_to_element(ele).perform()
+        ActionChains(self._driver).move_to_element(self._driver.find_element(*ele)).perform()
 
     def close_page(self):
         """关闭页面"""
-        sleep(20)
+        sleep(10)
         self._driver.quit()
 
     def login_in(self, username=None, pwd=None, group=None):
@@ -86,12 +86,6 @@ class BasePage:
             self._driver.find_element(By.CSS_SELECTOR, '.cc-input__inner[placeholder="请输入密码"]').send_keys(pwd)
 
         self._driver.find_element(By.CSS_SELECTOR, "button.login-btn").click()
-
-    def login_out(self):
-        """login out"""
-        ele_avatar = (By.CSS_SELECTOR, ".user-avatar img")
-        self.mouse_hover(ele_avatar)
-        self._driver.find_element(By.LINK_TEXT, "登出").click()
 
     def switch_to_window(self, index):
         """切换window窗口"""
@@ -117,6 +111,7 @@ class BasePage:
             self._driver.find_element(*ele).is_displayed()
         except NoSuchElementException as e:
             self._logger.error("{} element is not found !".format(ele))
+            # raise
             return False
         else:
             self._logger.info("元素存在!")

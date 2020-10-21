@@ -1,5 +1,0 @@
-[32mINFO    [0m log:base_page.py:120 元素存在!
-[32mINFO    [0m log:base_page.py:120 元素存在!
-[32mINFO    [0m log:base_page.py:120 元素存在!
-[32mINFO    [0m log:base_page.py:120 元素存在!
-[32mINFO    [0m log:base_page.py:120 元素存在!
