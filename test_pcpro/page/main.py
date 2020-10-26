@@ -58,13 +58,14 @@ class Main(BasePage):
         self.mouse_hover(ele_avatar)
 
     def assert_person_info(self):
-        """点击头像，个人信息断言"""
+        """个人信息-断言"""
         user_name = (By.CSS_SELECTOR, '.user-popover-top .user-name')
         position = (By.CSS_SELECTOR, '.user-popover-top .user-name small')
         avatar = (By.CSS_SELECTOR, '.user-popover-avatar img')
         tel = (By.XPATH, '//*[@class="ic ic-telephone"]/..')
         mail = (By.XPATH, '//*[@class="ic ic-mail"]/..')
         connection = (By.XPATH, '//*[@class="ic ic-connections"]/..')
+        group = (By.CSS_SELECTOR, 'span[class="operate-name"]')
 
         self.wait(10, ec.element_to_be_clickable(user_name))
         assert "姜正炜" in self._driver.find_element(*user_name).text
@@ -73,10 +74,62 @@ class Main(BasePage):
         assert self._driver.find_element(*tel).text == "17864199426"
         assert self._driver.find_element(*mail).text == "jiangzhw01@inspur.com"
         assert "爱城市网测试处" in self._driver.find_element(*connection).text
+        assert "浪潮集团" == self._driver.find_element(*group).text
+
+    def bind_group_click(self):
+        """个人信息-组织绑定"""
+        group = (By.CSS_SELECTOR, 'span[class="operate-name"]')
+        banner = (By.CSS_SELECTOR, '.org-bind-pics')
+        self._driver.find_elements(*group)[1].click()
+        self.wait(10, ec.element_to_be_clickable(banner))
+        # print(self._driver.page_source)
+
+    def assert_bind_group(self):
+        """绑定组织页面断言"""
+        org_title = (By.XPATH, '//*[@class="cc-dialog-body"]/..//span[@class="org-bind-title"]')
+        name_input = (By.CSS_SELECTOR, 'input[placeholder="互联网账号"]')
+        pwd_input = (By.CSS_SELECTOR, 'input[placeholder="请输入密码"]')
+        bind_submit = (By.CSS_SELECTOR, 'button[class="cc-btn btn-bind cc-btn-default cc-btn-size-default"]')
+        yzm_login = (By.CSS_SELECTOR, '.org-internet-login-change')
+        assert "组织绑定" == self._driver.find_element(*org_title).text
+        self.is_element_exit(name_input)
+        self.is_element_exit(pwd_input)
+        self.is_element_exit(bind_submit)
+        self.is_element_exit(yzm_login)
+
+    def enter_bind_msg(self, name, pwd):
+        """输入绑定信息"""
+        name_input = (By.CSS_SELECTOR, 'input[placeholder="互联网账号"]')
+        pwd_input = (By.CSS_SELECTOR, 'input[placeholder="请输入密码"]')
+        tel_input = (By.CSS_SELECTOR, 'input[placeholder = "手机号"]')
+        yzm_input = (By.CSS_SELECTOR, 'input[placeholder = "请输入验证码"]')
+        if self.is_element_exit(name_input):
+            self._driver.find_element(*name_input).send_keys(name)
+            self._driver.find_element(*pwd_input).send_keys(pwd)
+        if self.is_element_exit(tel_input):
+            self._driver.find_element(*tel_input).send_keys(name)
+            self._driver.find_element(*yzm_input).send_keys(pwd)
+
+    def bind_group_operation(self):
+        """组织绑定信息填写"""
+        # Todo:方法优化，优化验证码和账号密码绑定逻辑
+        bind_submit = (By.CSS_SELECTOR, 'button[class="cc-btn btn-bind cc-btn-default cc-btn-size-default"]')
+        msg_toast = (By.CSS_SELECTOR, '.cc-message-box')
+        msg_define = (By.CSS_SELECTOR, '.cc-message-box-btns .cc-btn-default')
+        self.wait(10, ec.element_to_be_clickable(bind_submit))
+        self._driver.find_element(*bind_submit).click()
+        self.wait(10, ec.element_to_be_clickable(msg_toast))
+        self._driver.find_element(*msg_define).click()
+        self.wait(10, ec.invisibility_of_element(msg_toast))
+        self.enter_bind_msg("17864199426", "123456a?")
+        self._driver.find_element(*bind_submit).click()
 
     def person_info_operation(self):
         """个人信息操作"""
         self.person_avatar_hover()
         # 悬浮后打印page_source，便于定位
         # print(self._driver.page_source)
-        self.assert_person_info()
+
+        # self.assert_person_info()
+        self.bind_group_click()
+        self.assert_bind_group()
