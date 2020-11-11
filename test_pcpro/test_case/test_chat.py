@@ -10,16 +10,16 @@ from test_pcpro.page.main import Main
 
 
 class TestChat:
-    def setup(self):
+    def setup_class(self):
         self.main = Main()
 
     def test_login_out(self):
-        self.main.login_in(username="jiangzhw01", pwd="..552165844zjx", group="inspur")
+        self.main.login_in(username="jiangzhw01", pwd="552165844zjx**", group="inspur")
         self.main.switch_to_window(1)
         self.main.login_out()
 
     def test_chat_fwh(self):
-        self.main.login_in(username="jiangzhw01", pwd="..552165844zjx", group="inspur")
+        self.main.login_in(username="jiangzhw01", pwd="552165844zjx**", group="inspur")
         self.main.switch_to_window(1)
         fwh_page = self.main.fwh_click()
         fwh_page.assert_fwh()
@@ -28,17 +28,17 @@ class TestChat:
         fwh_page.fwh_operation()
 
     def test_notice(self):
-        self.main.login_in(username="jiangzhw01", pwd="..552165844zjx", group="inspur")
+        self.main.login_in(username="jiangzhw01", pwd="552165844zjx**", group="inspur")
         self.main.switch_to_window(1)
         notice_page = self.main.notice_click()
         notice_page.assert_notice()
 
     def test_personal_info(self):
-        self.main.login_in(username="jiangzhw01", pwd="..552165844zjx", group="inspur")
+        self.main.login_in(username="jiangzhw01", pwd="552165844zjx**", group="inspur")
         self.main.switch_to_window(1)
         self.main.person_info_operation()
 
-    def teardown(self):
+    def teardown_class(self):
         self.main.close_page()
 
 

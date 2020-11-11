@@ -55,7 +55,7 @@ class BasePage:
             # options.set_capability('version', '10')  # window version
             options.set_capability("os", "Windows")
             options.set_capability('os_version', '10')
-            options.binary_location = u"C:/Users/jiangzhw01/AppData/Local/Programs/ccwork-pc/云上协同 Alpha.exe"  # start up app path
+            options.binary_location = u"C:/Users/jiangzhw01/AppData/Local/Programs/ccwork-pc/云上协同 Dev.exe"  # start up app path
             self._driver = webdriver.Chrome(executable_path=path, options=options)
             self._driver.implicitly_wait(5)
         else:
@@ -74,7 +74,7 @@ class BasePage:
         """login in """
         if group is not None:
             self._driver.find_element(By.CSS_SELECTOR, ".login-head .cc-btn").click()
-            self._driver.find_element(By.CSS_SELECTOR, 'input[placeholder="请输入组织号"]').send_keys(group)
+            self._driver.find_element(By.CSS_SELECTOR, 'input[placeholder="请输入组织代号"]').send_keys(group)
             self._driver.find_element(By.CSS_SELECTOR, ".btn-bind").click()
             ele_login = (By.CSS_SELECTOR, ".login-btn")
             WebDriverWait(self._driver, 10).until(ec.element_to_be_clickable(ele_login))

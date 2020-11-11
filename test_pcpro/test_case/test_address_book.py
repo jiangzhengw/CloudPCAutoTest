@@ -7,6 +7,7 @@ from test_pcpro.page.main import Main
 
 
 class TestAddressBook:
+    """通讯录 case"""
     def setup(self):
         self.main = Main()
 

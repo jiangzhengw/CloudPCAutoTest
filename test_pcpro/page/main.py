@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions as ec
 
 from test_pcpro.page.base_page import BasePage
 from test_pcpro.page.fwh import FWH
+from test_pcpro.page.login import Login
 from test_pcpro.page.notice import Notice
 
 
@@ -29,6 +30,12 @@ class Main(BasePage):
         else:
             raise NoSuchElementException()
         return FWH(self._driver)
+
+    def enter_login_page(self):
+        """切换到login page"""
+        login_container = (By.CSS_SELECTOR, '.login-container')
+        self.wait(10, ec.visibility_of_element_located(login_container))
+        return Login()
 
     def notice_click(self):
         """点击打开通知公告page"""
@@ -65,16 +72,17 @@ class Main(BasePage):
         tel = (By.XPATH, '//*[@class="ic ic-telephone"]/..')
         mail = (By.XPATH, '//*[@class="ic ic-mail"]/..')
         connection = (By.XPATH, '//*[@class="ic ic-connections"]/..')
-        group = (By.CSS_SELECTOR, 'span[class="operate-name"]')
+        # group = (By.CSS_SELECTOR, 'span[class="operate-name"]')
 
         self.wait(10, ec.element_to_be_clickable(user_name))
+        print(self._driver.page_source)
         assert "姜正炜" in self._driver.find_element(*user_name).text
         assert self._driver.find_element(*position).text == "员工"
         self.is_element_exit(avatar)
         assert self._driver.find_element(*tel).text == "17864199426"
         assert self._driver.find_element(*mail).text == "jiangzhw01@inspur.com"
         assert "爱城市网测试处" in self._driver.find_element(*connection).text
-        assert "浪潮集团" == self._driver.find_element(*group).text
+        # assert "浪潮集团" == self._driver.find_element(*group).text
 
     def bind_group_click(self):
         """个人信息-组织绑定"""
@@ -129,7 +137,6 @@ class Main(BasePage):
         self.person_avatar_hover()
         # 悬浮后打印page_source，便于定位
         # print(self._driver.page_source)
-
-        # self.assert_person_info()
+        self.assert_person_info()
         self.bind_group_click()
         self.assert_bind_group()
