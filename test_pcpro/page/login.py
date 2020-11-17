@@ -65,4 +65,4 @@ class Login(BasePage):
     ])
     def change_group_code(self, group_code):
         """切换组织"""
-        pass
+        self._driver.switch_to_window()
