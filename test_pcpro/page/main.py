@@ -35,7 +35,7 @@ class Main(BasePage):
         """切换到login page"""
         login_container = (By.CSS_SELECTOR, '.login-container')
         self.wait(10, ec.visibility_of_element_located(login_container))
-        return Login()
+        return Login(self._driver)
 
     def notice_click(self):
         """点击打开通知公告page"""
@@ -53,10 +53,13 @@ class Main(BasePage):
 
     def login_out(self):
         """login out"""
-        ele_avatar = (By.CSS_SELECTOR, ".user-avatar img")
-        self.wait(10, ec.element_to_be_clickable(ele_avatar))
-        self.mouse_hover(ele_avatar)
-        self._driver.find_element(By.LINK_TEXT, "登出").click()
+        print("进入login_out 方法")
+        sidebar_button = (By.CSS_SELECTOR, '.sidebar-button-container .sidebar-button img')
+        out_button = (By.CSS_SELECTOR, '.more-popover-button .ic-left')
+        self.wait(10, ec.element_to_be_clickable(sidebar_button))
+        self.find(sidebar_button).click()
+        self.wait(10, ec.element_to_be_clickable(out_button))
+        self.find(out_button).click()
 
     def person_avatar_hover(self):
         """个人头像-悬浮"""
@@ -76,13 +79,13 @@ class Main(BasePage):
 
         self.wait(10, ec.element_to_be_clickable(user_name))
         print(self._driver.page_source)
-        assert "姜正炜" in self._driver.find_element(*user_name).text
-        assert self._driver.find_element(*position).text == "员工"
+        assert "姜正炜" in self.find(user_name).text
+        assert self.find(position).text == "员工"
         self.is_element_exit(avatar)
-        assert self._driver.find_element(*tel).text == "17864199426"
-        assert self._driver.find_element(*mail).text == "jiangzhw01@inspur.com"
-        assert "爱城市网测试处" in self._driver.find_element(*connection).text
-        # assert "浪潮集团" == self._driver.find_element(*group).text
+        assert self.find(tel).text == "17864199426"
+        assert self.find(mail).text == "jiangzhw01@inspur.com"
+        assert "爱城市网测试处" in self.find(connection).text
+        # assert "浪潮集团" == self.find(group).text
 
     def bind_group_click(self):
         """个人信息-组织绑定"""
@@ -99,7 +102,7 @@ class Main(BasePage):
         pwd_input = (By.CSS_SELECTOR, 'input[placeholder="请输入密码"]')
         bind_submit = (By.CSS_SELECTOR, 'button[class="cc-btn btn-bind cc-btn-default cc-btn-size-default"]')
         yzm_login = (By.CSS_SELECTOR, '.org-internet-login-change')
-        assert "组织绑定" == self._driver.find_element(*org_title).text
+        assert "组织绑定" == self.find(org_title).text
         self.is_element_exit(name_input)
         self.is_element_exit(pwd_input)
         self.is_element_exit(bind_submit)
@@ -112,11 +115,11 @@ class Main(BasePage):
         tel_input = (By.CSS_SELECTOR, 'input[placeholder = "手机号"]')
         yzm_input = (By.CSS_SELECTOR, 'input[placeholder = "请输入验证码"]')
         if self.is_element_exit(name_input):
-            self._driver.find_element(*name_input).send_keys(name)
-            self._driver.find_element(*pwd_input).send_keys(pwd)
+            self.find(name_input).send_keys(name)
+            self.find(pwd_input).send_keys(pwd)
         if self.is_element_exit(tel_input):
-            self._driver.find_element(*tel_input).send_keys(name)
-            self._driver.find_element(*yzm_input).send_keys(pwd)
+            self.find(tel_input).send_keys(name)
+            self.find(yzm_input).send_keys(pwd)
 
     def bind_group_operation(self):
         """组织绑定信息填写"""
@@ -125,12 +128,12 @@ class Main(BasePage):
         msg_toast = (By.CSS_SELECTOR, '.cc-message-box')
         msg_define = (By.CSS_SELECTOR, '.cc-message-box-btns .cc-btn-default')
         self.wait(10, ec.element_to_be_clickable(bind_submit))
-        self._driver.find_element(*bind_submit).click()
+        self.find(bind_submit).click()
         self.wait(10, ec.element_to_be_clickable(msg_toast))
-        self._driver.find_element(*msg_define).click()
+        self.find(msg_define).click()
         self.wait(10, ec.invisibility_of_element(msg_toast))
         self.enter_bind_msg("17864199426", "123456a?")
-        self._driver.find_element(*bind_submit).click()
+        self.find(bind_submit).click()
 
     def person_info_operation(self):
         """个人信息操作"""
@@ -140,3 +143,5 @@ class Main(BasePage):
         self.assert_person_info()
         self.bind_group_click()
         self.assert_bind_group()
+
+

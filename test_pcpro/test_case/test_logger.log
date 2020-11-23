@@ -426,3 +426,316 @@
 2020-10-26 09:56:16,188 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - INFO: 元素存在!
 2020-11-09 14:34:08,567 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - INFO: 元素存在!
 2020-11-09 14:38:01,624 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - INFO: 元素存在!
+2020-11-23 11:16:22,637 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 11:27:22,393 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 11:27:23,003 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 11:27:28,380 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 11:27:29,050 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 11:27:34,395 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 11:27:35,071 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 11:27:35,430 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 11:27:41,165 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 11:27:47,128 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 11:27:48,664 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:40,441 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:41,175 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:46,522 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 12:48:47,212 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:47,628 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:48,704 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:49,095 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:50,192 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:50,571 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:51,646 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:51,970 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:53,081 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:53,463 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:48:54,588 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:51:50,935 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:51:52,089 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:51:57,516 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 12:51:58,203 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:51:58,575 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:51:59,638 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:52:05,028 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 12:52:05,213 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:52:05,597 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:52:07,709 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:52:08,092 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:52:09,666 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:52:10,045 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:52:11,203 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:11,083 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:11,708 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:17,118 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 12:53:17,291 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:17,675 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:18,735 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:19,127 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:28,644 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:29,038 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:31,663 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:32,042 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:33,123 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:33,509 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:53:34,676 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:54:04,207 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 12:54:15,974 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:24:50,551 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:24:55,954 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 14:25:01,526 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 14:25:03,073 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:25:04,482 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:25:05,864 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:25:07,250 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:25:08,647 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:25:46,112 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:25:51,452 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 14:25:57,043 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 14:25:58,560 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:25:59,959 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:26:01,382 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:26:02,796 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:26:04,177 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:43:03,593 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 14:43:08,802 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 14:44:03,647 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 14:44:08,985 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 14:44:14,145 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:07:36,987 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:07:42,338 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:07:47,502 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:09:07,130 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:09:12,503 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:09:17,683 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:12:31,887 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:13:34,860 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:13:40,252 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:13:45,491 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:15:18,310 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:15:23,700 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:15:28,972 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:16:40,020 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:16:45,407 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:16:50,705 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:18:08,653 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:18:14,035 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:18:28,412 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:18:33,800 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:18:39,178 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:19:48,150 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:19:53,592 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:19:58,922 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:30:45,570 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:30:50,972 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:30:56,424 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:31:14,200 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:31:14,655 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:31:57,642 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:32:09,165 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:32:14,613 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:32:19,964 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:32:57,013 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:33:02,446 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:33:07,769 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 15:33:24,362 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:35:03,055 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:35:08,534 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:35:09,019 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:48:31,960 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:48:37,455 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:48:38,024 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:48:43,980 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:48:44,820 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:48:45,786 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:48:51,218 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:48:52,153 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:48:53,085 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:48:58,519 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:49:00,511 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:49:01,502 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:49:06,916 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:49:08,413 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:49:09,335 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:49:14,766 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:49:15,717 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:49:16,650 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:49:22,041 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:49:22,846 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:50:59,679 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:51:00,894 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:51:43,227 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:51:48,718 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:51:49,226 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:52:46,842 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:53:28,156 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:56:12,798 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:56:18,297 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:56:18,738 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:56:30,531 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:56:35,954 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:56:36,452 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:58:57,652 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:59:03,161 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:59:03,538 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:59:14,677 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:59:15,033 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:59:43,357 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:59:48,798 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 15:59:49,216 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 15:59:55,372 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 16:00:29,071 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 16:00:34,517 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 16:00:34,937 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 16:57:00,419 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 16:57:06,530 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 16:57:11,959 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 16:57:12,461 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 16:58:27,237 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 16:58:33,426 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 16:58:38,892 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 16:58:39,562 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 16:58:45,926 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 16:58:51,443 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 16:58:51,733 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:00:49,825 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:01:00,033 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:01:00,951 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:01:06,410 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:01:11,925 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:01:23,635 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:01:24,702 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:01:30,194 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:01:35,809 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:03:17,620 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:03:27,985 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:03:28,881 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:03:34,341 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:03:39,822 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:03:52,308 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:03:53,380 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:03:58,908 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:04:04,600 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:10:27,049 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:10:37,331 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:10:38,247 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:10:43,770 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:10:49,531 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:11:01,996 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:11:03,079 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:11:08,560 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:11:14,307 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:12:53,776 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:13:04,020 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:13:04,928 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:13:10,420 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:13:15,918 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:13:33,879 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:19:33,092 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:19:38,489 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:19:39,850 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:19:45,314 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:19:50,804 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:20:17,639 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:20:22,886 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:20:23,969 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:20:29,424 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:20:34,924 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:20:48,218 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:20:49,380 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:21:00,500 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:21:06,352 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:22:07,090 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:22:17,325 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:22:18,245 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:22:23,775 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:22:29,315 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:22:48,075 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:22:49,060 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:22:54,725 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:23:00,665 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:26:46,056 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:26:51,817 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:26:53,371 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:26:59,152 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:27:06,140 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:27:34,448 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:27:35,477 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:27:41,244 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:27:47,519 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:31:30,458 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:31:36,531 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:31:38,615 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:31:44,887 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:31:52,392 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:32:54,969 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:33:05,119 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:33:05,967 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:33:11,378 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:33:16,578 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:33:31,190 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:33:32,038 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:33:37,428 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:33:42,668 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:35:31,108 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:35:36,223 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:35:37,123 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:35:42,488 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:35:47,688 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:35:57,408 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:35:58,308 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:36:03,688 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:36:08,898 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:50:46,540 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:50:56,690 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:50:57,490 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:51:02,861 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:51:08,010 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:51:17,500 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:51:22,560 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:51:23,390 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:51:28,750 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:51:34,020 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:51:43,640 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:53:00,170 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:53:05,310 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:53:06,200 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:53:11,600 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:53:16,770 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:53:26,250 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:58:34,499 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 17:58:44,613 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 17:58:45,426 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 17:58:50,840 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 17:58:56,048 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:10:41,143 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 18:10:51,314 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:10:52,151 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 18:10:57,519 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 18:11:02,789 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:11:12,322 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 18:14:58,137 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 18:15:08,314 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:15:09,132 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 18:15:14,563 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 18:15:19,814 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:15:29,562 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 18:16:11,271 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:16:12,128 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 18:16:17,578 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 18:16:22,809 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:16:32,667 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 18:16:37,797 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:16:43,641 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 18:16:49,042 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:16:58,841 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 18:19:20,699 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 18:19:21,727 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 18:19:27,158 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 18:19:32,555 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:19:42,159 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 18:19:52,242 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:19:53,104 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 18:19:58,530 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-23 18:20:03,975 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-23 18:20:13,925 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!

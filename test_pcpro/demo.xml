@@ -5,26 +5,26 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="icon" href="app://./logo.png">
         <title>云上协同</title>
-        <link href="app://./css/chunk-09eea742.b14d63ef.css" rel="prefetch">
-        <link href="app://./css/chunk-35839213.0c92a024.css" rel="prefetch">
-        <link href="app://./css/chunk-68d8f7ca.3921d651.css" rel="prefetch">
-        <link href="app://./css/chunk-7c9ea4f6.b14d63ef.css" rel="prefetch">
-        <link href="app://./js/chunk-09eea742.4416b1f0.js" rel="prefetch">
-        <link href="app://./js/chunk-1667411b.7a26b34c.js" rel="prefetch">
-        <link href="app://./js/chunk-253af435.7b42f654.js" rel="prefetch">
-        <link href="app://./js/chunk-2d0bacad.35baaada.js" rel="prefetch">
-        <link href="app://./js/chunk-2d0e886f.191e02d1.js" rel="prefetch">
-        <link href="app://./js/chunk-35839213.411e1030.js" rel="prefetch">
-        <link href="app://./js/chunk-53b2cbca.8a073051.js" rel="prefetch">
-        <link href="app://./js/chunk-5aaeef45.24ff7501.js" rel="prefetch">
-        <link href="app://./js/chunk-68d8f7ca.c73ceb59.js" rel="prefetch">
-        <link href="app://./js/chunk-7c9ea4f6.122377b6.js" rel="prefetch">
-        <link href="app://./js/chunk-f5bf6a9c.052ac0a4.js" rel="prefetch">
-        <link href="app://./css/app.434ae50d.css" rel="preload" as="style">
-        <link href="app://./js/app.af073e75.js" rel="modulepreload" as="script">
-        <link href="app://./css/app.434ae50d.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="app://./css/chunk-7c9ea4f6.b14d63ef.css">
-        <script charset="utf-8" src="app://./js/chunk-7c9ea4f6.122377b6.js"></script>
+        <link href="app://./css/chunk-040e0a2c.21935c8a.css" rel="prefetch">
+        <link href="app://./css/chunk-35839213.8fc16fc9.css" rel="prefetch">
+        <link href="app://./css/chunk-359c92cc.21935c8a.css" rel="prefetch">
+        <link href="app://./css/chunk-fffdae10.38b21485.css" rel="prefetch">
+        <link href="app://./js/chunk-040e0a2c.e9a6588b.js" rel="prefetch">
+        <link href="app://./js/chunk-232963de.00eb23b1.js" rel="prefetch">
+        <link href="app://./js/chunk-2d0bacad.88e36107.js" rel="prefetch">
+        <link href="app://./js/chunk-2d0e886f.09756f1e.js" rel="prefetch">
+        <link href="app://./js/chunk-35839213.d4fa248c.js" rel="prefetch">
+        <link href="app://./js/chunk-359c92cc.4147a9f3.js" rel="prefetch">
+        <link href="app://./js/chunk-53b2cbca.3eebce12.js" rel="prefetch">
+        <link href="app://./js/chunk-c2206fce.7e5b0f2c.js" rel="prefetch">
+        <link href="app://./js/chunk-d18e5436.903ee4ef.js" rel="prefetch">
+        <link href="app://./js/chunk-f5bf6a9c.553522a4.js" rel="prefetch">
+        <link href="app://./js/chunk-fffdae10.7ad4b0b8.js" rel="prefetch">
+        <link href="app://./css/app.bc35347a.css" rel="preload" as="style">
+        <link href="app://./js/app.1c6f7dc0.js" rel="modulepreload" as="script">
+        <link href="app://./css/app.bc35347a.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="app://./css/chunk-359c92cc.21935c8a.css">
+        <script charset="utf-8" src="app://./js/chunk-359c92cc.4147a9f3.js"></script>
     </head>
     <body>
         <noscript>
@@ -39,43 +39,28 @@
                         <i data-v-43e898a4="" class="ic ic-close"></i>
                     </button>
                 </div>
-                <div class="login-wrapper">
-                    <div class="login-head">
-                        <img src="app://./img/pic_login_title.095eee66.svg" alt="" class="welcome-img">
-                        <button class="cc-btn cc-btn-default cc-btn-size-small">绑定组织</button>
+                <div class="login-org-bind">
+                    <p class="org-bind-head"><i class="ic ic-arrow-left"></i>绑定组织
+                    </p>
+                    <div class="org-bind-top">
+                        <div class="cc-input cc-input--small cc-input-group cc-input-group--append"><!---->
+                            <input type="text" autocomplete="off" placeholder="请输入组织代号"
+                                   class="cc-input__inner"><!----><!---->
+                            <div class="cc-input-group__append">
+                                <span class="btn-bind">绑定</span>
+                            </div><!---->
+                        </div>
                     </div>
-                    <div class="login-input cc-input cc-input--primary cc-input--suffix"><!---->
-                        <input type="text" autocomplete="off" placeholder="请输入账号" class="cc-input__inner"><!---->
-                        <span class="cc-input__suffix">
-                            <span class="cc-input__suffix-inner"><!---->
-                                <i class="cc-input__icon ic ic-close-fill cc-input__clear"></i><!----><!---->
-                            </span><!---->
-                        </span><!----><!---->
-                    </div>
-                    <div class="login-input cc-input cc-input--primary cc-input--suffix"><!---->
-                        <input type="password" autocomplete="off" placeholder="请输入密码" class="cc-input__inner"><!---->
-                        <span class="cc-input__suffix">
-                            <span class="cc-input__suffix-inner"><!----><!---->
-                                <i class="cc-input__icon ic ic-browse cc-input__clear"></i><!---->
-                            </span><!---->
-                        </span><!----><!---->
-                    </div>
-                    <div class="login-find-pwd">
-                        <label class="cc-checkbox login-remember cc-checkbox-size-default is-checked">
-                            <span class="cc-checkbox-input is-checked">
-                                <span class="cc-checkbox-inner"></span><!----><!---->
-                                <input type="checkbox" name="" class="cc-checkbox-original">
-                            </span>
-                            <span class="cc-checkbox-label">
-                                <div class="login-remember-font">记住密码</div>
-                            </span>
-                        </label>
-                        <div class="login-forget">忘记密码?</div>
-                    </div>
-                    <button class="cc-btn login-btn cc-btn-primary cc-btn-size-default">登录</button>
-                    <div class="login-bottom">
-                        <img src="app://./img/ic_phone.10813b59.svg" alt="" class="login-bottom-img">
-                        <span class="login-bottom-text">验证码登录</span>
+                    <div class="org-bind-history">
+                        <div class="history-item active">
+                            <i class="ic ic-connections icon-org"></i>
+                            浪潮集团
+                            <div class="btn-operate">
+                                <img src="app://./img/ic_unbind.2d88d46c.svg" title="解绑"
+                                     class="icon-unbind icon-hover"><!----><!---->
+                                <span class="cc-tag cc-tag-plain-primary cc-tag-size-small">当前</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="login-org-bind" style="display: none;">
@@ -106,7 +91,7 @@
                 </div>
             </div>
         </div>
-        <script type="module" src="app://./js/app.af073e75.js"></script>
+        <script type="module" src="app://./js/app.1c6f7dc0.js"></script>
         <script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var
             n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else
             if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();

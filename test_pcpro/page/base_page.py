@@ -10,7 +10,7 @@ import win32con
 from time import sleep
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver import ActionChains
+from selenium.webdriver import ActionChains, DesiredCapabilities
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
@@ -47,23 +47,27 @@ class BasePage:
         """init fun"""
         # 初始化driver
         if driver is None:
+            path = "D:/driver/chromedriver/chromedriver_win32_85.0.4183.102.exe"
             options = webdriver.ChromeOptions()
-            # options.add_argument("--remote-debugging-port=9222")  # open devtools for operator element
-            # options.add_experimental_option('w3c', False)
-            path = "D:/driver/chromedriver_win32_80.0.3987.16/chromedriver.exe"
+            capabilities = DesiredCapabilities.CHROME.copy()
+            capabilities['platform'] = "WINDOWS"
+            capabilities['version'] = "10"
             # options.set_capability('platform', 'WINDOWS')  # test windows app
             # options.set_capability('version', '10')  # window version
-            options.set_capability("os", "Windows")
-            options.set_capability('os_version', '10')
+            # capabilities['chromedriverExecutable'] = path 不可行
+            # todo: selenium 实现和appium chromedriverExecutable类似自动选择webdriver功能
+            capabilities['executable_path'] = path
+            # options.add_argument("--remote-debugging-port=9222")  # open devtools for operator element
+            # options.add_experimental_option('w3c', False)
             options.binary_location = u"C:/Users/jiangzhw01/AppData/Local/Programs/ccwork-pc/云上协同 Dev.exe"  # start up app path
-            self._driver = webdriver.Chrome(executable_path=path, options=options)
+            self._driver = webdriver.Chrome(executable_path=path, desired_capabilities=capabilities, options=options)
             self._driver.implicitly_wait(5)
         else:
             self._driver = driver
 
     def mouse_hover(self, ele):
         """鼠标悬停"""
-        ActionChains(self._driver).move_to_element(self._driver.find_element(*ele)).perform()
+        ActionChains(self._driver).move_to_element(self.find(ele)).perform()
 
     def close_page(self):
         """关闭页面"""
@@ -90,7 +94,7 @@ class BasePage:
     def switch_to_window(self, index):
         """切换window窗口"""
 
-        if len(self._driver.window_handles) > 1:
+        if len(self._driver.window_handles) > index:
             print(self._driver.window_handles)
             self._driver.switch_to.window(self.get_window_handles(index))
         else:
@@ -108,7 +112,7 @@ class BasePage:
     def is_element_exit(self, ele):
         """判断元素是否存在"""
         try:
-            self._driver.find_element(*ele).is_displayed()
+            self.find(ele).is_displayed()
         except NoSuchElementException as e:
             self._logger.error("{} element is not found !".format(ele))
             # raise
@@ -135,3 +139,25 @@ class BasePage:
     def get_mouse_pos(self):
         """win32api 获取鼠标位置"""
         return win32api.GetCursorPos()
+
+    def find(self, locator):
+        """查找元素方法"""
+        if isinstance(locator, tuple):
+            return self._driver.find_element(*locator)
+        else:
+            self._driver.find_element(locator)
+
+    def is_ele_clickable(self, locator):
+        """判断元素是否可点击"""
+        clickable = True
+        # 元素存在，才能讨论是否能够点击元素
+        if self.is_element_exit(locator):
+            try:
+                # 尝试点击元素，如果元素不能点击，则会抛出异常
+                self.find(locator).click()
+            except:
+                print("元素不可点击!")
+                clickable = False
+            else:
+                print("元素可点击!")
+        return clickable

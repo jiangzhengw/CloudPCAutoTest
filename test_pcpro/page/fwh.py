@@ -71,11 +71,11 @@ class FWH(BasePage):
         """服务号聊天-表情"""
         # WebDriverWait(self._driver, 10).until(ec.element_to_be_clickable(ele_emoji_item))
         for i in range(number):
-            self._driver.find_element(*ele_emo).click()
+            self.find(ele_emo).click()
             self._driver.find_element(By.CSS_SELECTOR, f'.chat-emoji-container div:nth-child({i + 1})').click()
             sleep(0.5)
         # ele_submit = (By.CSS_SELECTOR, '[aria-describedby="cc-popover-2854"]')
-        # self._driver.find_element(*ele_submit).click()
+        # self.find(ele_submit).click()
         # self._driver.find_element(By.CSS_SELECTOR, '.chat-input-wrapper').send_keys("webdriver" + Keys.ENTER)
 
     def pri_scr(self):
@@ -103,18 +103,18 @@ class FWH(BasePage):
         """"服务号聊天-微邮"""
         email = (By.CSS_SELECTOR, 'button[title="微邮"]')
         self.wait(10, ec.element_to_be_clickable(email))
-        self._driver.find_element(*email).click()
+        self.find(email).click()
         return EMAIL(self._driver)
 
     def file_list(self):
         """附件类表"""
         file_list_button = (By.CSS_SELECTOR, 'button[title="附件列表"]')
         self.wait(10, ec.element_to_be_clickable(file_list_button))
-        self._driver.find_element(*file_list_button).click()
+        self.find(file_list_button).click()
         file_list = (By.CSS_SELECTOR, '.chat-file-list')
         self.wait(10, ec.visibility_of_element_located(file_list))
         file_total = (By.CSS_SELECTOR, '.chat-file-list-title-manage')
-        assert "共有" in self._driver.find_element(*file_total).text
+        assert "共有" in self.find(file_total).text
 
     def fwh_operation(self):
         """服务号内操作"""
