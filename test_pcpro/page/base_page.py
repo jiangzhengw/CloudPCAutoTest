@@ -149,15 +149,15 @@ class BasePage:
 
     def is_ele_clickable(self, locator):
         """判断元素是否可点击"""
-        clickable = True
+        clickable = False
         # 元素存在，才能讨论是否能够点击元素
-        if self.is_element_exit(locator):
+        if self.find(locator).is_displayed():
             try:
                 # 尝试点击元素，如果元素不能点击，则会抛出异常
                 self.find(locator).click()
             except:
                 print("元素不可点击!")
-                clickable = False
             else:
                 print("元素可点击!")
+                clickable = True
         return clickable

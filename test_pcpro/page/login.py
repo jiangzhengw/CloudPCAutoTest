@@ -34,11 +34,21 @@ class Login(BasePage):
         assert self.find(self._forget_pwd).text == "记住密码"
         assert self.find(self._login_button)
 
-    def toast_confirm_click(self):
+    def toast_confirm_click(self, type):
         """点击toast确认按钮"""
         confirm_button = (By.CSS_SELECTOR, '.cc-message-box-btns button')
-        if self.is_element_exit(confirm_button):
-            self.find(confirm_button).click()
+        back_button = (By.CSS_SELECTOR, '.org-bind-head .ic-arrow-left')
+        if type == "login":
+            if self.is_ele_clickable(confirm_button):
+                self.find(confirm_button).click()
+                time.sleep(1)
+        elif type == "bind":
+            if self.is_ele_clickable(confirm_button):
+                self.find(confirm_button).click()
+                self.wait(10, ec.element_to_be_clickable(back_button))
+                self.find(back_button).click()
+                self.wait(10, ec.visibility_of_element_located(self._login_button))
+        else:
             self.wait(10, ec.visibility_of_element_located(self._login_button))
 
     def input_login_msg(self, name, pwd):
@@ -72,17 +82,19 @@ class Login(BasePage):
             else:
                 print("已取消记住密码")
 
-    def login_toast_assert(self, toast_text):
+    def toast_assert(self, toast_text, type):
         """点击登录按钮toast断言"""
         toast = (By.CSS_SELECTOR, '.cc-message-box')
         toast_content = (By.CSS_SELECTOR, '.cc-message-box-message')
         self.wait(10, ec.visibility_of_element_located(toast))
         text = self.find(toast_content).text
+        print(text)
+        print(toast_text)
         if text is not None:
             pytest.assume(toast_text == text)
         else:
             self._logger.error("Toast Content is empty !")
-        self.toast_confirm_click()
+        self.toast_confirm_click(type)
 
     def login_submit(self):
         """点击登录按钮"""
@@ -96,14 +108,14 @@ class Login(BasePage):
 
     def change_group(self, group_code=None):
         """切换组织"""
-        self.find(self._change_group).click()
+        print("进入change_group方法")
         bind_button = (By.CSS_SELECTOR, 'span[class="btn-bind"]')
-        self.find(bind_button).click()
         input_group = (By.CSS_SELECTOR, 'input[placeholder="请输入组织代号"]')
         self.find(self._change_group).click()
         self.wait(10, ec.visibility_of_element_located(bind_button))
         self.find(input_group).send_keys(group_code)
         self.find(bind_button).click()
+        time.sleep(1)
 
     def clear_bind_group(self):
         """清空绑定组织"""
@@ -135,3 +147,30 @@ class Login(BasePage):
                 self.find(del_bind).click()
         self.find(back_button).click()
         self.wait(10, ec.visibility_of_element_located(self._login_container))
+
+    def forget_pwd(self, phone, yzm, pwd, toast_content):
+        """登录-忘记密码 验证码"""
+        get_yzm = (By.CSS_SELECTOR, '.cc-input-group__append .cc-btn')
+        forget_pwd = (By.CSS_SELECTOR, '.login-forget')
+        self.find(forget_pwd).click()
+        self.wait(10, ec.presence_of_element_located(get_yzm))
+        phone_input = (By.CSS_SELECTOR, '.pwd-forgot-input input[placeholder="请输入手机号"]')
+        yzm_input = (By.CSS_SELECTOR, '.pwd-forgot-input input[placeholder="请输入验证码"]')
+        pwd_input = (By.CSS_SELECTOR, '.pwd-forgot-input input[placeholder="请输入新密码"]')
+        save_button = (By.CSS_SELECTOR, '.cc-btn.login-btn')
+        self.find(phone_input).send_keys(phone)
+        # self.find(get_yzm).click()
+        # self.toast_assert("forget_yzm", toast_content)
+        self.find(yzm_input).send_keys(yzm)
+        self.find(pwd_input).send_keys(pwd)
+        self.find(save_button).click()
+        self.toast_assert(toast_content, "bind")
+
+    # Todo: forget_pwd_yzm() 和 login_yzm（）方法实现
+    def forget_pwd_yzm(self):
+        """忘记密码-获取验证码"""
+        pass
+
+    def login_yzm(self):
+        """互联网环境-验证码登录"""
+        pass

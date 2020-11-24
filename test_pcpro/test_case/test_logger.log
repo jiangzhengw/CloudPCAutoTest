@@ -739,3 +739,210 @@
 2020-11-23 18:19:58,530 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
 2020-11-23 18:20:03,975 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
 2020-11-23 18:20:13,925 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 19:26:12,028 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 19:28:39,387 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 19:31:27,770 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 19:34:17,234 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 19:35:28,880 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 19:38:09,133 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-23 19:57:00,823 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 19:57:06,058 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 19:57:11,271 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 19:57:16,505 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 19:57:21,738 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 19:57:21,969 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:00:57,055 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:01:02,281 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:01:07,512 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:01:12,728 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:01:17,944 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:01:18,166 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:01:19,221 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:01:19,424 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:01:20,522 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:01:20,711 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:03:18,763 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:03:18,793 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:03:29,141 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:03:29,166 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:03:39,473 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:03:39,486 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:03:49,810 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:03:49,826 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:04:00,121 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:04:00,132 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:04:05,372 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:04:06,421 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:04:06,604 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:04:07,695 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:04:07,883 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:05:26,293 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:05:26,320 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:05:36,607 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:05:36,629 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:05:46,855 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:05:46,869 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:05:57,153 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:05:57,166 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:06:07,447 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:06:07,464 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:06:12,797 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:06:13,845 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:06:19,103 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:06:20,203 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:06:25,415 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:07:58,226 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:07:58,255 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:08:08,550 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:08:08,572 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:08:18,877 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:08:18,892 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:08:29,117 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:08:29,131 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:08:39,427 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-23 20:08:39,442 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:08:44,711 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:08:45,761 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:08:51,051 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:08:52,147 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:08:57,477 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-23 20:08:58,573 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:08:46,996 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 14:08:47,031 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:08:57,312 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 14:08:57,327 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:09:07,644 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 14:09:07,660 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:09:17,941 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 14:09:17,953 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:09:28,235 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 14:09:28,249 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:09:33,545 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:09:34,602 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:09:39,894 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:09:41,101 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:09:46,418 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:09:47,567 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:15:27,174 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 14:15:37,451 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 14:15:37,467 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:15:42,832 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:15:42,908 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:15:53,825 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:15:54,395 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:16:05,126 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 14:16:05,710 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:53:31,995 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 15:53:42,255 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 15:53:42,906 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:53:43,514 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:53:44,360 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:53:45,647 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:53:50,987 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:55:35,367 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 15:55:41,662 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:55:43,267 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:55:44,846 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:55:46,390 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:55:52,685 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:55:58,979 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:56:05,203 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:56:11,469 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:57:03,426 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 15:57:14,758 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 15:57:21,026 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:57:22,558 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:57:24,113 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:57:25,595 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:58:11,610 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 15:58:18,896 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:58:21,433 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:58:23,932 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 15:59:49,870 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 16:00:02,113 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:00:03,694 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:00:05,211 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:00:06,764 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:00:12,986 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:00:19,232 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:00:25,474 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:01:39,256 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.cc-message-box-btns button') element is not found !
+2020-11-24 16:01:51,560 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:01:53,097 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:01:54,640 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:01:56,145 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:17:10,690 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:17:16,071 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:17:32,603 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:17:44,093 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:17:49,480 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:18:08,583 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:18:13,930 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:18:25,269 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:18:30,613 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:20:47,026 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:20:52,390 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:20:58,516 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:21:00,177 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:21:05,557 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:21:07,143 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:21:12,500 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:21:14,064 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:21:19,423 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:21:21,006 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:21:26,362 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:21:27,912 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:21:33,269 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:21:33,601 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:21:34,773 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:21:40,178 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:21:45,305 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-24 16:21:55,371 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-24 16:21:59,315 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:22:37,218 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 16:22:43,205 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:22:48,612 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:22:54,730 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:22:55,772 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:23:01,136 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:23:02,813 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:23:08,166 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:23:09,735 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:23:15,081 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:23:16,639 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:23:21,993 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:23:23,547 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:23:28,928 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:23:34,813 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-24 16:23:35,619 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:23:40,985 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:23:46,133 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-24 16:24:00,721 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-24 16:24:01,556 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:121] - INFO: 元素存在!
+2020-11-24 16:24:06,951 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.ic-close-fill') element is not found !
+2020-11-24 16:24:12,190 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '.login-remember .is-checked') element is not found !
+2020-11-24 16:25:27,201 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 16:29:49,622 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:37:20,183 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:37:30,417 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:37:40,671 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:37:50,872 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:38:01,047 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:38:11,283 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:39:56,818 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:40:07,060 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:41:32,962 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:41:43,143 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:42:04,491 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:48:35,714 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:48:45,898 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:55:27,161 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:55:37,322 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:58:01,995 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:58:12,211 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 18:59:57,261 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 19:00:29,533 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 19:03:49,116 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 19:08:52,831 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 19:13:28,603 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-24 19:14:12,370 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
