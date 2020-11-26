@@ -9,10 +9,11 @@ import win32gui
 import win32con
 from time import sleep
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver import ActionChains, DesiredCapabilities
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -90,6 +91,7 @@ class BasePage:
             self._driver.find_element(By.CSS_SELECTOR, '.cc-input__inner[placeholder="请输入密码"]').send_keys(pwd)
 
         self._driver.find_element(By.CSS_SELECTOR, "button.login-btn").click()
+        self.switch_to_window(1)
 
     def switch_to_window(self, index):
         """切换window窗口"""
@@ -148,16 +150,54 @@ class BasePage:
             self._driver.find_element(locator)
 
     def is_ele_clickable(self, locator):
-        """判断元素是否可点击"""
-        clickable = False
-        # 元素存在，才能讨论是否能够点击元素
+        """判断元素是否可点击
+        :param locator：ele locator
+        :return: bool 当元素可点击返回True，元素不可点击返回False
+        """
+        isClick = False
         if self.find(locator).is_displayed():
             try:
-                # 尝试点击元素，如果元素不能点击，则会抛出异常
                 self.find(locator).click()
             except:
-                print("元素不可点击!")
+                self._logger.error("元素不可点击!")
             else:
-                print("元素可点击!")
-                clickable = True
-        return clickable
+                self._logger.info("元素可点击!")
+                isClick = True
+        return isClick
+
+    def wait_element_display(self, element, time_out=3, message=''):
+        """
+        等待element元素消失，成功消失返回True，否则返回False
+        :param message: TimeoutException message
+        :param driver:  selenium.webdriver.remote.webdriver.WebDriver
+        :param element: selenium.webdriver.remote.webelement.WebElement
+        :param time_out: 隐式等待时间
+        :return: bool 当元素成功消失返回True，元素未消失返回False
+        """
+        inti = 0
+        while inti < 3:
+            # 当元素消失的时候返回True，进行下一步操作
+            try:
+                # Todo : 获取隐式等待时间为timeout
+                self.wait(time_out, ec.invisibility_of_element(element))
+                boolean = True
+            except TimeoutException:
+                boolean = False
+            if boolean:
+                self._logger.info("该元素已经消失!")
+                break
+            else:
+                self._logger.warning("该元素还未消失!")
+                inti += 1
+        if inti >= 3:
+            self._logger.error("3次判断后该元素还未消失!" + element.__str__())
+            # print(type(element.__str__()))
+            raise TimeoutException(message)
+        else:
+            return True
+
+    def search(self, name):
+        """首页搜索功能"""
+        search = (By.CSS_SELECTOR, '.chat-list-search input[placeholder="搜索"]')
+        self.wait(10, ec.presence_of_element_located(search))
+        self.find(search).send_keys(name)

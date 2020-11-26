@@ -3,6 +3,7 @@
 # FileName: main.py
 from time import sleep
 
+import pytest
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
@@ -143,5 +144,19 @@ class Main(BasePage):
         self.assert_person_info()
         self.bind_group_click()
         self.assert_bind_group()
+
+    def search_detail(self, name):
+        """首页搜索"""
+        self.search(name)
+        search = (By.CSS_SELECTOR, '.chat-list-search input[placeholder="搜索"]')
+
+        self.mouse_hover(search)
+        search_clear = (By.CSS_SELECTOR, '.ic-close-fill.cc-input__clear')
+        self.wait(10, ec.element_to_be_clickable(search_clear))
+        self.find(search_clear).click()
+        self.wait_element_display(search_clear)
+        pytest.assume(self.find(search).text == "")
+        self.find(search).send_keys(name)
+        # Todo ：等待出现正确搜索结果
 
 

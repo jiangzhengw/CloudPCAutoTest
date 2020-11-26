@@ -946,3 +946,12 @@
 2020-11-24 19:08:52,831 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
 2020-11-24 19:13:28,603 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
 2020-11-24 19:14:12,370 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:117] - ERROR: ('css selector', '[class="history-item active"]') element is not found !
+2020-11-26 10:59:15,416 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:186] - WARNING: 该元素还未消失!
+2020-11-26 10:59:18,516 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:186] - WARNING: 该元素还未消失!
+2020-11-26 10:59:21,630 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:186] - WARNING: 该元素还未消失!
+2020-11-26 10:59:24,740 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:186] - WARNING: 该元素还未消失!
+2020-11-26 10:59:24,740 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:189] - ERROR: 3次判断后该元素还未消失!('css selector', '.chat-list-search input[placeholder="搜索"]')
+2020-11-26 11:08:51,947 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:186] - WARNING: 该元素还未消失!
+2020-11-26 11:08:55,060 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:186] - WARNING: 该元素还未消失!
+2020-11-26 11:08:58,159 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:186] - WARNING: 该元素还未消失!
+2020-11-26 11:08:58,159 - D:\PythonPro\CloudPCAutoTest\test_pcpro\page\base_page.py[line:189] - ERROR: 3次判断后该元素还未消失!('css selector', '.chat-list-search input[placeholder="搜索"]')
