@@ -180,3 +180,39 @@ class Main(BasePage):
                     if name == text:
                         self._driver.find_elements(*search_title)[i].click()
                 self.wait(10, ec.presence_of_element_located(chat_title))
+
+    def new_chat(self, member):
+        """新建单聊/群聊"""
+        new_chat_button = (By.CSS_SELECTOR, '.btn-new-chat')
+        # print(self._driver.window_handles)
+        self.find(new_chat_button).click()
+        # print(self._driver.window_handles)
+        # print(self._driver.page_source)
+        member_manager = (By.CSS_SELECTOR, '.member-manage-container')
+        self.wait(10, ec.presence_of_element_located(member_manager))
+        search_input = (By.CSS_SELECTOR, 'input[placeholder="人员搜索"]')
+        select_span = (By.CSS_SELECTOR,
+                       'label[class="cc-checkbox member-manage-check cc-checkbox-size-default is-circle"] '
+                       '.cc-checkbox-input')
+
+        if isinstance(member, list):
+            # print("进入list创建分支")
+            for i in range(len(member)):
+                self.find(search_input).send_keys(member[i])
+                self.wait(10, ec.element_to_be_clickable(select_span))
+                self.find(select_span).click()
+                self.find(search_input).clear()
+        else:
+            self.find(search_input).send_keys(member)
+            self.wait(10, ec.element_to_be_clickable(select_span))
+            self.find(select_span).click()
+        member_right = (By.CSS_SELECTOR, '.member-manage-content-right .member-manage-member')
+        self.wait(10, ec.presence_of_element_located(member_right))
+        confirm_button = (By.CSS_SELECTOR, '.member-manage-bottom .cc-btn-default')
+        self.find(confirm_button).click()
+        chat_title = (By.CSS_SELECTOR, '.chat-detail-name span')
+        self.wait(10, ec.presence_of_element_located(chat_title))
+        # Todo:此处使用死等问题，待优化
+        sleep(5)
+        member = ",".join(member)
+        pytest.assume(member in self.find(chat_title).get_attribute("title"))

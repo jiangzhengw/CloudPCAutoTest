@@ -13,6 +13,11 @@ search_data = [
     '哈哈哈哈哈'
 ]
 
+member_data = [
+    ['苏爽', '张庆鑫', '邵非'],
+    # "苏爽"
+]
+
 
 class TestChat:
     def setup_class(self):
@@ -40,8 +45,9 @@ class TestChat:
     def test_search(self, name):
         self.main.precise_search(name)
 
-    def test_new_chat(self):
-        pass
+    @pytest.mark.parametrize('member', member_data)
+    def test_new_chat(self, member):
+        self.main.new_chat(member)
 
     def teardown_class(self):
         self.main.close_page()

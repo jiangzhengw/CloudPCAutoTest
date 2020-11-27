@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb2d35db-dc62-4b28-a73e-882206a99425" name="Default Changelist" comment="2020-9-30 commit-01 “first commit”">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="fb2d35db-dc62-4b28-a73e-882206a99425" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CloudChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CloudChat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_pcpro/page/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pcpro/page/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pcpro/test_case/test_chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pcpro/test_case/test_chat.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,18 +22,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1i4qiCJnwAaKbahJ6qK2gwhhbNJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hogwars01" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonPro\CloudPCAutoTest\test_pcpro" />
       <recent name="D:\PythonPro\CloudChat\pcpro\test_case" />
     </key>
   </component>
@@ -47,6 +52,98 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_chat.TestChat.test_new_chat">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CloudChat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pcpro" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pcpro/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_chat.TestChat.test_new_chat" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CloudChat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pcpro/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_chat.TestChat.test_new_chat&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_chat.TestChat.test_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CloudChat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pcpro/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_chat.TestChat.test_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_login.TestLogin.test_forget_pwd" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CloudChat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pcpro/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_forget_pwd&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_chat.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CloudChat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pcpro/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_pcpro/test_case/test_chat.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_chat.TestChat.test_new_chat" />
+        <item itemvalue="Python tests.pytest in test_chat.py" />
+        <item itemvalue="Python tests.pytest for test_chat.TestChat.test_search" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_forget_pwd" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,7 +163,98 @@
       <option name="project" value="LOCAL" />
       <updated>1601452073948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020-10-9 commit-01 “first commit”">
+      <created>1602215397142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602215397142</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2020-10-14 commit-01 “first commit”">
+      <created>1602658744307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602658744307</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2020-10-19 commit-01 “服务号 新增”">
+      <created>1603098918021</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603098918021</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2020-10-21 commit-01 “我的，通知公告等脚本新增”">
+      <created>1603274079700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603274079700</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2020-10-26 commit-01 “脚本 新增”">
+      <created>1603697116527</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603697116528</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2020-11-11 commit-01 “脚本新增”">
+      <created>1605063455580</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605063455580</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2020-11-17 commit-01 “登录脚本新增”">
+      <created>1605596309394</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605596309394</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2020-11-23 commit-01 “登录相关脚本新增”">
+      <created>1606130680570</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606130680570</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2020-11-24 commit-01 “登录绑定组织相关脚本完成及其他方法优化”">
+      <created>1606217053798</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606217053798</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2020-11-26 commit-01 “脚本新增”">
+      <created>1606361907898</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606361907898</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2020-11-26 commit-01 “脚本新增”">
+      <created>1606362096834</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606362096834</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2020-11-27 commit-01 “脚本新增”">
+      <created>1606460188439</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606460188439</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2020-11-27 commit-01 “脚本优化修改，base_page方法参数注释新增”">
+      <created>1606461429252</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606461429252</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +272,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020-9-30 commit-01 “first commit”" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-9-30 commit-01 “first commit”" />
+    <MESSAGE value="2020-10-9 commit-01 “first commit”" />
+    <MESSAGE value="2020-10-14 commit-01 “first commit”" />
+    <MESSAGE value="2020-10-19 commit-01 “服务号 新增”" />
+    <MESSAGE value="2020-10-21 commit-01 “我的，通知公告等脚本新增”" />
+    <MESSAGE value="2020-10-26 commit-01 “脚本 新增”" />
+    <MESSAGE value="2020-11-11 commit-01 “脚本新增”" />
+    <MESSAGE value="2020-11-17 commit-01 “登录脚本新增”" />
+    <MESSAGE value="2020-11-23 commit-01 “登录相关脚本新增”" />
+    <MESSAGE value="2020-11-24 commit-01 “登录绑定组织相关脚本完成及其他方法优化”" />
+    <MESSAGE value="2020-11-26 commit-01 “脚本新增”" />
+    <MESSAGE value="2020-11-27 commit-01 “脚本新增”" />
+    <MESSAGE value="2020-11-27 commit-01 “脚本优化修改，base_page方法参数注释新增”" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-11-27 commit-01 “脚本优化修改，base_page方法参数注释新增”" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history>
+      <element expression="//*[@class='ic ic-telephone']" />
+      <element expression="//*[@class='ic ic-telephone']/..//*" />
+      <element expression="//*[@class='ic ic-telephone']/.." />
+      <element expression="//*[@class='ic ic-telephone']/..//span" />
+      <element expression="//*[@class=&quot;cc-dialog-body&quot;]/..//following-sibling::[@class=&quot;cc-dialog-header&quot;]/../span&#10;n" />
+      <element expression="//*[@class=&quot;cc-dialog-body&quot;]/..//following-sibling::div[1]/../span&#10;n" />
+      <element expression="//*[@class=&quot;cc-dialog-body&quot;]/..//following-sibling::div[1]&#10;n" />
+      <element expression="//*[@class=&quot;cc-dialog-body&quot;]/../following-sibling::div[1]&#10;n" />
+      <element expression="//*[@class=&quot;cc-dialog-body&quot;]/../following-sibling::div[1]" />
+      <element expression="//*[@class=&quot;cc-dialog-body&quot;]/../following-sibling::" />
+      <element expression="//*[@class=&quot;cc-dialog-body&quot;]" />
+      <element expression="//*[@class=&quot;cc-dialog-body&quot;]/.." />
+      <element expression="//*[@class=&quot;cc-dialog-body&quot;]/..//[@class=&quot;org-bind-title&quot;]" />
+      <element expression="//*[@class=&quot;cc-dialog-body&quot;]/..//span[@class=&quot;org-bind-title&quot;]" />
+    </history>
+    <find-history />
   </component>
 </project>
