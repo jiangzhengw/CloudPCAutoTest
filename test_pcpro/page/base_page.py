@@ -143,11 +143,16 @@ class BasePage:
         return win32api.GetCursorPos()
 
     def find(self, locator):
-        """查找元素方法"""
+        """find_element method 改造"""
         if isinstance(locator, tuple):
             return self._driver.find_element(*locator)
         else:
             self._driver.find_element(locator)
+
+    # Todo:封装find_elements()方法
+    def finds(self, locator):
+        """find_elements method 改造"""
+        pass
 
     def is_ele_clickable(self, locator):
         """判断元素是否可点击

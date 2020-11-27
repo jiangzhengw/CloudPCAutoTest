@@ -36,7 +36,7 @@ class TestChat:
 
     def test_search(self):
         self.main.login_in(username="jiangzhw01", pwd="552165844zjx**", group="inspur")
-        self.main.search_detail("苏爽")
+        self.main.precise_search("苏爽")
 
     def test_new_chat(self):
         pass

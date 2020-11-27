@@ -145,11 +145,11 @@ class Main(BasePage):
         self.bind_group_click()
         self.assert_bind_group()
 
-    def search_detail(self, name):
+    # Todo:增加对模糊搜索场景的编写
+    def precise_search(self, name):
         """首页搜索"""
         self.search(name)
         search = (By.CSS_SELECTOR, '.chat-list-search input[placeholder="搜索"]')
-
         self.mouse_hover(search)
         search_clear = (By.CSS_SELECTOR, '.ic-close-fill.cc-input__clear')
         self.wait(10, ec.element_to_be_clickable(search_clear))
@@ -157,6 +157,27 @@ class Main(BasePage):
         self.wait_element_display(search_clear)
         pytest.assume(self.find(search).text == "")
         self.find(search).send_keys(name)
-        # Todo ：等待出现正确搜索结果
-
-
+        search_title = (By.CSS_SELECTOR, '.chat-search-title')
+        self.wait(10, ec.visibility_of_element_located(search_title))
+        search_title = (By.CSS_SELECTOR, '.chat-search-detail-title')
+        search_en_title = (By.CSS_SELECTOR, '.chat-search-detail-title small')
+        self.wait(10, ec.visibility_of_element_located(search_title))
+        if len(self._driver.find_elements(search_title)) == 1:
+            self.find(search_title).click()
+        elif len(self._driver.find_elements(search_title)) < 1:
+            # raise NoSuchElementException(f"{search_title}\t元素未找到")
+            self._logger.warning("未查询到联系人")
+            search_empty = (By.CSS_SELECTOR, '.chat-search-empty span')
+            self.wait(10, ec.presence_of_element_located(search_empty))
+            pytest.assume(self.find(search_empty).text == "暂无匹配联系人")
+        else:
+            for i in range(len(self._driver.find_elements(*search_title))):
+                text = self._driver.find_elements(*search_title)[i].text
+                text_en = self._driver.find_elements(*search_en_title)[i].text
+                text = text.replace(text_en, "", 1)
+                text.strip()
+                print(text)
+                if name == text:
+                    self._driver.find_elements(*search_title)[i].click()
+        chat_title = (By.CSS_SELECTOR, f'span[title="{name}"]')
+        self.wait(10, ec.presence_of_element_located(chat_title))
