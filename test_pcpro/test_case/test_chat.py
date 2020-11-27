@@ -8,17 +8,21 @@ import pytest
 
 from test_pcpro.page.main import Main
 
+search_data = [
+    '苏爽',
+    '哈哈哈哈哈'
+]
+
 
 class TestChat:
     def setup_class(self):
         self.main = Main()
+        self.main.login_in(username="jiangzhw01", pwd="552165844zjx**", group="inspur")
 
     def test_login_out(self):
-        self.main.login_in(username="jiangzhw01", pwd="552165844zjx**", group="inspur")
         self.main.login_out()
 
     def test_chat_fwh(self):
-        self.main.login_in(username="jiangzhw01", pwd="552165844zjx**", group="inspur")
         fwh_page = self.main.fwh_click()
         fwh_page.assert_fwh()
         fwh_page.click_one_fwh("测试服务号")
@@ -26,17 +30,15 @@ class TestChat:
         fwh_page.fwh_operation()
 
     def test_notice(self):
-        self.main.login_in(username="jiangzhw01", pwd="552165844zjx**", group="inspur")
         notice_page = self.main.notice_click()
         notice_page.assert_notice()
 
     def test_personal_info(self):
-        self.main.login_in(username="jiangzhw01", pwd="552165844zjx**", group="inspur")
         self.main.person_info_operation()
 
-    def test_search(self):
-        self.main.login_in(username="jiangzhw01", pwd="552165844zjx**", group="inspur")
-        self.main.precise_search("苏爽")
+    @pytest.mark.parametrize('name', search_data)
+    def test_search(self, name):
+        self.main.precise_search(name)
 
     def test_new_chat(self):
         pass

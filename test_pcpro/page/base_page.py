@@ -116,8 +116,7 @@ class BasePage:
         try:
             self.find(ele).is_displayed()
         except NoSuchElementException as e:
-            self._logger.error("{} element is not found !".format(ele))
-            # raise
+            # self._logger.error("{} element is not found !".format(ele))
             return False
         else:
             self._logger.info("元素存在!")
